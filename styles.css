@@ -1,0 +1,192 @@
+@import url("https://fonts.googleapis.com/css2?family=Vazirmatn:wght@100;400;700&display=swap");
+
+*,
+*::after,
+*::before {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+html,
+body {
+  width: 100%;
+  height: 100%;
+  font-family: "Vazirmatn";
+  font-size: 62.5%;
+}
+
+nav {
+  width: 100%;
+  display: flex;
+  gap: 0;
+}
+.main-div {
+  display: flex;
+  width: 100%;
+}
+p {
+  color: #fafafa;
+  background-color: hsl(207deg 10% 17%);
+  padding: 20px;
+  text-align: left;
+  width: 170px;
+  vertical-align: middle;
+  display: inline-block;
+  width: 20%;
+  font-size: 1.8rem;
+}
+
+input {
+  padding: 20px;
+  background-color: hsl(213deg 7% 31%);
+  font-size: 17px;
+  border: none;
+  width: 70%;
+}
+.btn {
+  background-color: hsl(207deg 10% 17%);
+  padding: 20px;
+  border: none;
+  color: #fafafa;
+  cursor: pointer;
+  width: 10%;
+  font-size: 18px;
+  color: rgb(100, 104, 112);
+}
+
+.main-body {
+  display: flex;
+}
+
+aside {
+  width: 20.8%;
+  padding-top: 2rem;
+  padding-left: 1.2rem;
+  font-size: 1.5rem;
+  border-right: 1px solid rgba(202, 198, 198, 0.606);
+  background-color: rgba(202, 198, 198, 0.2);
+}
+
+aside li {
+  display: flex;
+  margin-bottom: 1rem;
+}
+
+li:hover {
+  color: rgba(47, 0, 255, 0.808);
+  cursor: pointer;
+}
+
+.icon {
+  display: flex;
+  align-items: center;
+}
+
+.bottom-section-header {
+  display: flex;
+  margin-bottom: 0.5rem;
+  align-items: center;
+}
+
+.bottom-section-header ion-icon {
+  margin-left: auto;
+  font-size: 1.2rem;
+}
+
+ion-icon {
+  margin-right: 0.5rem;
+  color: rgba(0, 0, 0, 0.459);
+}
+
+.top-section {
+  margin-bottom: 2rem;
+}
+
+h4 {
+  font-weight: bold;
+  padding-top: 1px;
+}
+
+.gray-color {
+  color: rgba(0, 0, 0, 0.459);
+}
+
+main {
+  margin: 2rem;
+  width: 80%;
+  order: 2;
+}
+.order {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+.button-group {
+  font-size: 2rem;
+}
+h1 {
+  font-size: 3rem;
+}
+
+.button,
+.select {
+  font-size: 1.4rem;
+  padding: 6px;
+  font-weight: 100;
+  color: gray;
+  background-color: white;
+  border: 1px solid gray;
+  border-radius: 2px;
+}
+
+.button {
+  padding: 7px;
+}
+
+.button:first-child {
+  margin: -7px;
+}
+
+hr {
+  border: 1px solid #f6f6f6;
+  margin: 1.5rem 0;
+}
+
+select {
+  font-size: 1.5rem;
+}
+
+table {
+  width: 100%;
+  table-layout: fixed;
+  font-size: 1.5rem;
+  border-collapse: collapse;
+}
+
+table > thead > tr > td:first-child {
+  width: 15%;
+}
+
+table > tbody > tr:nth-child(even) {
+  background-color: rgba(202, 198, 198, 0.301);
+  border-top: 1px solid rgba(202, 198, 198, 0.606);
+  border-bottom: 1px solid rgba(202, 198, 198, 0.606);
+}
+
+table thead tr {
+  height: 30px;
+}
+
+table thead tr td {
+  font-weight: bold;
+}
+
+table tbody tr {
+  height: 30px;
+}
+
+thead tr {
+  border-top: 1px solid rgba(202, 198, 198, 0.606);
+  border-bottom: 1px solid rgba(202, 198, 198, 0.606);
+}
