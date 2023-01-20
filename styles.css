@@ -6,6 +6,7 @@
   margin: 0;
   padding: 0;
   box-sizing: border-box;
+  /* outline: 1px solid rgba(204, 106, 15, 0.685); */
 }
 
 html,
@@ -20,11 +21,13 @@ nav {
   width: 100%;
   display: flex;
   gap: 0;
+  position: fixed;
 }
 .main-div {
   display: flex;
   width: 100%;
 }
+
 p {
   color: #fafafa;
   background-color: hsl(207deg 10% 17%);
@@ -57,15 +60,20 @@ input {
 
 .main-body {
   display: flex;
+  height: 100vh;
 }
 
 aside {
-  width: 20.8%;
+  position: fixed;
+  width: 20%;
+  height: 100vh;
   padding-top: 2rem;
   padding-left: 1.2rem;
   font-size: 1.5rem;
   border-right: 1px solid rgba(202, 198, 198, 0.606);
   background-color: rgba(202, 198, 198, 0.2);
+  margin-right: 20.8%;
+  margin-top: 7rem;
 }
 
 aside li {
@@ -114,6 +122,7 @@ h4 {
 
 main {
   margin: 2rem;
+  margin-left: 20.8%;
   width: 80%;
   order: 2;
 }
@@ -178,8 +187,13 @@ table thead tr {
   height: 30px;
 }
 
+table th {
+  text-align: start;
+}
+
 table thead tr td {
   font-weight: bold;
+  text-align: center;
 }
 
 table tbody tr {
