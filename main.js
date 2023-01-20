@@ -360,3 +360,26 @@ let dataArray = [
     integrations: true,
   },
 ];
+
+let signOut = document.getElementById("createEl");
+let table = document.querySelector("table").querySelector("tbody");
+
+function addData() {
+  dataArray.forEach((el) => {
+    let tr = document.createElement("tr");
+    let td1 = document.createElement("td");
+    td1.append(el.Orders)
+    let td2 = document.createElement("td");
+    td2.append(el.Products)
+    let td3 = document.createElement("td");
+    td3.append(el.Customers)
+    let td4 = document.createElement("td");
+    td4.append(String(el.reports))
+    let td5 = document.createElement("td");
+    td5.append(String(el.integrations))
+    tr.append(td1, td2, td3, td4, td5);
+    table.append(tr);
+  });
+}
+
+signOut.addEventListener("click", addData);
